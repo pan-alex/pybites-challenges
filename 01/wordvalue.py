@@ -55,6 +55,5 @@ def max_word_value(dictionary=[]):
     return best_word
 
 
-
 if __name__ == "__main__":
     max_word_value()
