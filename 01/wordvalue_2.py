@@ -1,5 +1,6 @@
 from data import DICTIONARY, LETTER_SCORES
 
+
 def load_words():
 	"""
 	:return: Loads in the dictionary (text file, with each word on a new line)
@@ -8,9 +9,6 @@ def load_words():
 		# Read, remove whitespace, split each line as a word
 		words = file.read().strip().split('\n')
 	return words
-
-
-
 
 
 def calc_word_value(word):
@@ -42,4 +40,4 @@ def max_word_value(dictionary=[]):
 
 
 if __name__ == "__main__":
-    max_word_value()
+	max_word_value()
